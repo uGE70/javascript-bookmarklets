@@ -1,1 +1,1 @@
-javascript:var input = window.prompt('Check for this keyword in any links:');var a = document.getElementsByTagName('a');for(var i=0; i<a.length; i++){var s = a[i].href;console.log(s);if (s && s.indexOf(input) != -1) {a[i].style.backgroundColor = 'red';}};
+javascript:(function() {var input = window.prompt('Check for this keyword in any links:');var a = document.getElementsByTagName('a');for(var i=0; i<a.length; i++){var s = a[i].href;console.log(s);if (s && s.indexOf(input) != -1) {a[i].style.backgroundColor = 'red';}};})();
