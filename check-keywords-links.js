@@ -1,1 +1,1 @@
-javascript:let input = window.prompt('Check for this keyword in any page links:');let a = document.getElementsByTagName('a');for(let i=0; i<a.length; i++){let s = a[i].href;console.log(s);if (s && s.indexOf(input) != -1) {a[i].style.backgroundColor = 'red';}};
+javascript:const input = window.prompt('Detect this keyword in any page links:');const a = document.getElementsByTagName('a');for(let i=0; i<a.length; i++){let s = a[i].href;console.log(s);if (s && s.indexOf(input) != -1) {a[i].style.backgroundColor = 'red';}};
