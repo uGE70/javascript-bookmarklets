@@ -1,5 +1,5 @@
 # javascript-bookmarklets for SEO
-- check-keywords-links.js – It looks for any keywords in the current page's links and highlights them in red. All links are displayed in the developer console.
+- check-keywords-links.js – Detect any keywords in the current page's links and highlights them in red. All links are displayed in the developer console.
 - check-seo-tags.js – fetch the title, meta description and meta keywords tags.
 
 ## Installation
